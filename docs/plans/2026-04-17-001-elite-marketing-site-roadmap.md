@@ -77,16 +77,16 @@ Shares on LinkedIn/iMessage/Slack render with proper OG preview. The site is cra
 Batch into a single PR. Each checkbox is one implementation unit.
 
 **SEO / discoverability**
-- [ ] **U1** Add Open Graph meta tags to `<head>`: `og:title`, `og:description`, `og:image`, `og:url`, `og:type`, `og:site_name` (satisfies R1)
-- [ ] **U2** Add Twitter Card meta tags: `twitter:card` (summary_large_image), `twitter:title`, `twitter:description`, `twitter:image` (R1)
-- [ ] **U3** Add canonical link: `<link rel="canonical" href="https://goodvibes-coding.com/">` (R4)
-- [ ] **U4** Generate static OG image at `/og.png` (1200×630) — teal background, brand mark, H1 tagline, URL. Also `/og-square.png` (1200×1200) for iMessage/WhatsApp (R1)
-- [ ] **U5** Add JSON-LD `Organization` schema block with name, url, logo, sameAs (LinkedIn), contactPoint (R3)
-- [ ] **U6** Add JSON-LD `LocalBusiness` (type: `ProfessionalService`) with areaServed: South Florida, telephone, address region (R3)
-- [ ] **U7** Create `/robots.txt` with sitemap reference and explicit allow for `GPTBot`, `ClaudeBot`, `PerplexityBot`, `Google-Extended` (R2)
-- [ ] **U8** Create `/sitemap.xml` listing the homepage (R2)
-- [ ] **U9** Wire Vercel Web Analytics (free, one-line script include) (R5, R6)
-- [ ] **U10** Wire Plausible ($9/mo) with domain `goodvibes-coding.com` (R6)
+- [x] **U1** Add Open Graph meta tags to `<head>`: `og:title`, `og:description`, `og:image`, `og:url`, `og:type`, `og:site_name` (satisfies R1)
+- [x] **U2** Add Twitter Card meta tags: `twitter:card` (summary_large_image), `twitter:title`, `twitter:description`, `twitter:image` (R1)
+- [x] **U3** Add canonical link: `<link rel="canonical" href="https://goodvibes-coding.com/">` (R4)
+- [x] **U4** Generate static OG image at `/og.png` (1200×630) — teal background, brand mark, H1 tagline, URL. Also `/og-square.png` (1200×1200) for iMessage/WhatsApp (R1)
+- [x] **U5** Add JSON-LD `Organization` schema block with name, url, logo, sameAs (LinkedIn), contactPoint (R3)
+- [x] **U6** Add JSON-LD `LocalBusiness` (type: `ProfessionalService`) with areaServed: South Florida, telephone, address region (R3)
+- [x] **U7** Create `/robots.txt` with sitemap reference and explicit allow for `GPTBot`, `ClaudeBot`, `PerplexityBot`, `Google-Extended` (R2)
+- [x] **U8** Create `/sitemap.xml` listing the homepage (R2)
+- [x] **U9** Wire Vercel Web Analytics (free, one-line script include) (R5, R6) — script tag added; Matt needs to enable Web Analytics + Speed Insights in the Vercel dashboard to start collecting data
+- [ ] **U10** Wire Plausible ($9/mo) with domain `goodvibes-coding.com` (R6) — needs Matt to sign up at plausible.io and add the one-line snippet
 
 **Conversion / trust (copy + markup)**
 - [ ] **U11** Add Melissa's LinkedIn link to her team card (mirror Matt's link structure) (R11)

@@ -1,0 +1,39 @@
+# Good Vibes Coding — robots.txt
+# Allow all conventional search engine crawlers and LLM citation crawlers.
+
+User-agent: *
+Allow: /
+
+# Explicit allow for LLM crawlers (they may otherwise respect Google-Extended,
+# ai.txt, or refuse to index without a clear allow signal).
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+Sitemap: https://goodvibes-coding.com/sitemap.xml
