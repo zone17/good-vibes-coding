@@ -110,7 +110,7 @@ Batch into a single PR. Each checkbox is one implementation unit.
 - [ ] **U23** Add secondary capture: newsletter signup (Buttondown or ConvertKit) below mission section, framed as "Get our monthly write-up on AI wins and mistakes we've seen" (R10)
 
 **Performance**
-- [ ] **U24** Self-host DM Serif Display + DM Sans WOFF2 files; drop Google Fonts preconnects; `<link rel="preload">` the H1 weight (R5)
+- [x] **U24** Self-host DM Serif Display + DM Sans WOFF2 files; drop Google Fonts preconnects; `<link rel="preload">` the H1 weight (R5) — 8 WOFF2 files (~268KB total), `@font-face` declarations with unicode-range subsetting, 3 critical weights preloaded (DM Serif roman + italic, DM Sans roman)
 - [ ] **U25** Convert `team.jpg` to AVIF + WebP with `<picture>` fallback (R5)
 - [ ] **U26** Audit CSS animations for `will-change` / transform-heavy INP regressions (R5)
 
