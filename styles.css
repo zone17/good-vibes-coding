@@ -844,11 +844,6 @@
     font-weight: 500;
     margin-bottom: var(--space-lg);
   }
-  .cta__note {
-    font-size: var(--text-sm);
-    color: var(--color-text-soft);
-    margin-bottom: var(--space-sm);
-  }
   .cta__channels-label {
     font-size: var(--text-sm);
     color: var(--color-text-soft);
@@ -860,6 +855,8 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 0.625rem;
+    padding: 0;
+    margin: 0;
   }
   .channel-icon,
   .channel-pill {
