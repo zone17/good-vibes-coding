@@ -844,7 +844,7 @@
     font-weight: 500;
     margin-bottom: var(--space-lg);
   }
-  .cta__note {
+  .cta__channels-label {
     font-size: var(--text-sm);
     color: var(--color-text-soft);
     margin-bottom: var(--space-sm);
@@ -853,20 +853,61 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: var(--space-sm);
-    font-size: var(--text-sm);
+    flex-wrap: wrap;
+    gap: 0.625rem;
+    padding: 0;
+    margin: 0;
   }
-  .cta__channel {
+  .channel-icon,
+  .channel-pill {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.875rem;
+    border: 1.5px solid var(--color-border);
     color: var(--color-text-muted);
-    transition: color var(--duration-fast);
+    background: transparent;
+    transition: color var(--duration-fast) var(--ease-out),
+                border-color var(--duration-fast) var(--ease-out),
+                transform var(--duration-fast) var(--ease-out),
+                background-color var(--duration-fast) var(--ease-out);
+  }
+  .channel-icon {
+    width: 2.875rem;
+    border-radius: 50%;
+  }
+  .channel-icon svg {
+    width: 1.125rem;
+    height: 1.125rem;
+  }
+  .channel-pill {
+    padding: 0 1.125rem;
+    border-radius: 999px;
+    gap: 0.5rem;
+    font-size: var(--text-sm);
     font-weight: 500;
   }
-  .cta__channel:hover {
-    color: var(--color-primary);
+  .channel-pill__arrow {
+    width: 0.875rem;
+    height: 0.875rem;
+    transition: transform var(--duration-fast) var(--ease-out);
   }
-  .cta__divider {
-    color: var(--color-text-soft);
-    opacity: 0.4;
+  .channel-icon:hover,
+  .channel-icon:focus-visible,
+  .channel-pill:hover,
+  .channel-pill:focus-visible {
+    color: var(--color-primary);
+    border-color: var(--color-primary);
+    transform: translateY(-1px);
+  }
+  .channel-pill:hover .channel-pill__arrow,
+  .channel-pill:focus-visible .channel-pill__arrow {
+    transform: translateX(2px);
+  }
+  .channel-icon:focus-visible,
+  .channel-pill:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 3px;
   }
 
   /* ---- Footer ---- */
