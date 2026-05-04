@@ -3,8 +3,11 @@
 **Plan ID:** 2026-04-17-001-elite-marketing-site-roadmap
 **Owner:** Matt
 **Created:** 2026-04-17
-**Status:** In progress
+**Status:** Partially shipped; prioritization superseded by v3 strategy (2026-04-30 → 2026-05-04)
 **Source research:** [docs/research/2026-04-17-elite-marketing-site-research.md](../research/2026-04-17-elite-marketing-site-research.md)
+**Superseded by:** [`docs/strategy/2026-04-30-business-plan/23-business-plan-synthesis-v3.md`](../strategy/2026-04-30-business-plan/23-business-plan-synthesis-v3.md) (master plan) and [`docs/handoff/2026-05-04-strategy-and-playbooks-handoff.md`](../handoff/2026-05-04-strategy-and-playbooks-handoff.md) (current handoff).
+
+> **Note (2026-05-04):** Many individual units in this roadmap are still valid (U25 image AVIF/WebP, U26 INP audit, U27/U28 sitemap submissions, U33 hero rebalance). What's superseded is the *prioritization* — v3 commits to a cold-acquisition + dual-geography motion that re-shapes which site work matters most. See the new handoff for current next moves. This file is preserved as the prior agent's reference.
 
 ---
 
